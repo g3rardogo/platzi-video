@@ -19,9 +19,11 @@ const initialState = {
       year: 2009,
       contentRating: "16+",
       duration: 164,
-      cover: "http://dummyimage.com/800x600.png/99118E/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     },
     {
       id: 3,
@@ -32,9 +34,11 @@ const initialState = {
       year: 2002,
       contentRating: "16+",
       duration: 137,
-      cover: "http://dummyimage.com/800x600.png/302140/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     },
     {
       id: 4,
@@ -45,9 +49,11 @@ const initialState = {
       year: 2014,
       contentRating: "16+",
       duration: 163,
-      cover: "http://dummyimage.com/800x600.png/5472FF/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     },
     {
       id: 5,
@@ -58,9 +64,11 @@ const initialState = {
       year: 2014,
       contentRating: "16+",
       duration: 194,
-      cover: "http://dummyimage.com/800x600.png/B36F20/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     },
     {
       id: 6,
@@ -71,9 +79,11 @@ const initialState = {
       year: 2017,
       contentRating: "16+",
       duration: 124,
-      cover: "http://dummyimage.com/800x600.png/CCC539/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     },
     {
       id: 7,
@@ -84,9 +94,11 @@ const initialState = {
       year: 2011,
       contentRating: "16+",
       duration: 179,
-      cover: "http://dummyimage.com/800x600.png/FF7A90/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
     },
   ],
   originals: [
@@ -99,9 +111,11 @@ const initialState = {
       year: 2012,
       contentRating: "16+",
       duration: 148,
-      cover: "http://dummyimage.com/800x600.png/306880/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     },
     {
       id: 9,
@@ -112,9 +126,11 @@ const initialState = {
       year: 2019,
       contentRating: "16+",
       duration: 128,
-      cover: "http://dummyimage.com/800x600.png/604180/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     },
     {
       id: 10,
@@ -125,9 +141,11 @@ const initialState = {
       year: 2011,
       contentRating: "16+",
       duration: 346,
-      cover: "http://dummyimage.com/800x600.png/FF91BA/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     },
     {
       id: 11,
@@ -138,35 +156,11 @@ const initialState = {
       year: 2015,
       contentRating: "16+",
       duration: 226,
-      cover: "http://dummyimage.com/800x600.png/45807C/ffffff",
+      cover:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
       description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
-    },
-    {
-      id: 12,
-      slug: "tvshow-12",
-      title: "Private Eyes",
-      type: "Comedy",
-      language: "English",
-      year: 2018,
-      contentRating: "16+",
-      duration: 190,
-      cover: "http://dummyimage.com/800x600.png/577380/ffffff",
-      description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
-    },
-    {
-      id: 13,
-      slug: "tvshow-13",
-      title: "NCIS: Los Angeles",
-      type: "Drama",
-      language: "English",
-      year: 2010,
-      contentRating: "16+",
-      duration: 160,
-      cover: "http://dummyimage.com/800x600.png/5472FF/ffffff",
-      description: "Vestibulum ac est lacinia nisi venenatis tristique",
-      source: "https://mdstrm.com/video/58333e214ad055d208427db5.mp4",
+      source:
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
     },
   ],
 };
